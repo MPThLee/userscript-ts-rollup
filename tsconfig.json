@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "*",
+                "src/*"
+            ]
+        },
+        "target": "es2015",
+        "strict": true,
+        "allowJs": true,
+        "module": "ESNEXT",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "preserveConstEnums": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["ESNEXT", "DOM", "DOM.Iterable"]
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./types/**/*.d.ts",
+        "rollup.config.ts"
+    ]
+}
